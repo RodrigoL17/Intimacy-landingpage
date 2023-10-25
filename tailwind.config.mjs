@@ -5,6 +5,8 @@ export default {
 		extend: {
 			fontFamily: {
 				primary: ['Noto Serif Display', 'serif'],
+				secondary: ['Taviraj', 'serif'],
+				tertiary: ['Oooh Baby', 'cursive'],
 			}
 		},
 	},

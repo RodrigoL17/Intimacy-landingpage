@@ -11,6 +11,12 @@ dependencies:
   '@fontsource-variable/noto-serif-display':
     specifier: ^5.0.18
     version: 5.0.18
+  '@fontsource/oooh-baby':
+    specifier: ^5.0.17
+    version: 5.0.17
+  '@fontsource/taviraj':
+    specifier: ^5.0.17
+    version: 5.0.17
   astro:
     specifier: ^3.3.4
     version: 3.3.4
@@ -727,6 +733,14 @@ packages:
 
   /@fontsource-variable/noto-serif-display@5.0.18:
     resolution: {integrity: sha512-ZLWOVoYluYnaSz8nqnzkqGLib6ZhkO7aT+dGVsp++GkAqBzLigrgew0a51QuaLqJHc7YQPGM2ORZXvxRjZZIfg==}
+    dev: false
+
+  /@fontsource/oooh-baby@5.0.17:
+    resolution: {integrity: sha512-nq6J1j8p6EYhunayYdhXy/C8f4hLFpU+n804UD9j1BFJhneD+nM0N08DkBgMrkrbecl4HYnmYROhfda7krf6zg==}
+    dev: false
+
+  /@fontsource/taviraj@5.0.17:
+    resolution: {integrity: sha512-tN/idd8nq1uGtbznP6Kh6Wn9C5KuJvoCwIEmHAaYNLVa+dlyZUKZk3y4M7NeUKCd6VZ//0u9kyWbfWQ1fjDKew==}
     dev: false
 
   /@jridgewell/gen-mapping@0.3.3:

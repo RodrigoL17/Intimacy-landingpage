@@ -18,6 +18,33 @@ const { title } = Astro.props;
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/webp" href="/favicon.webp" />
 		<meta name="generator" content={Astro.generator} />
+
+		 <!-- Open Graph -->
+		 <meta property="og:type" content="website" />
+		 <meta property="og:title" content={title} />
+		 <meta
+		   property="og:description"
+		   content="Este progrma viene a invitarte a vivir desde tu autenticidad. Para ello, debemos viajar hacia tu intimidad para reconocre y hablar con tus dones y con tus sombras"
+		 />
+		 <meta property="og:image" content="/OGImage.webp" />
+		 <meta property="og:alt" content="Intimacy Cover" />
+		 <meta property="og:url" content={Astro.url} />
+		 <meta property="og:site_name" content={title} />
+		 <meta property="og:locale" content="es_AR" />
+		 <meta property="og:locale:alternate" content="es_ES" />
+	 
+		 <meta name="author" content="Belen Vitullo" />
+		 <meta
+		   name="description"
+		   content="Este progrma viene a invitarte a vivir desde tu autenticidad. Para ello, debemos viajar hacia tu intimidad para reconocre y hablar con tus dones y con tus sombras."
+		 />
+		 <meta
+		   name="keywords"
+		   content="Intimacy, Body & Mind, Programa de Intimidad , Mentoría Personalizada, Desarrollo Personal, Transformación de Vida, Empoderamiento Personal, Crecimiento Interior, Salto Cuántico, Autoconfianza, Despertar Personal"
+		 />
+	 
+		 <meta name="theme-color" content="#3B3238" />
+		 <meta name="robots" content="index, follow" />
 		<title>{title}</title>
 	</head>
 	<body class="bg-[#3B3238]">

@@ -1,13 +1,13 @@
 ---
-
+const { sectionStyle, imageStyles, commonStyles } = Astro.props;
 ---
 
-<section class="relative h-screen">
+<section class={sectionStyle}>
   <div
-    class="absolute h-full w-full flex flex-col justify-center items-start gap-16 font-secondary text-4xl px-20"
+    class={`${commonStyles} justify-center items-start gap-8 lg:gap-16 text-sm lg:text-3xl px-5 lg:px-20`}
   >
     <h2
-      class="text-5xl underline underline-offset-4 decoration-1 text-center w-[50%]"
+      class="text-base lg:text-4xl underline underline-offset-4 decoration-1 text-center w-[50%]"
     >
       ¿Qué incluye este viaje?
     </h2>
@@ -28,7 +28,7 @@
     </ul>
   </div>
   <img
-    class="absolute h-full w-full -z-10 opacity-70 object-cover"
+    class={imageStyles}
     src="/cover6.webp"
     alt="cover"
   />

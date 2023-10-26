@@ -1,23 +1,54 @@
 ---
-import HeroSection from '../components/hero-section.astro';
-import SecondSection from '../components/second-section.astro';
-import ThirdSection from '../components/third-section.astro';
-import FourthSection from '../components/fourth-section.astro';
-import FifthSection from '../components/fifth-section.astro';
-import SixthSection from '../components/sixth-section.astro';
-import SeventhSection from '../components/seventh-section.astro';
-import Layout from '../layouts/Layout.astro';
+import HeroSection from "../components/hero-section.astro";
+import SecondSection from "../components/second-section.astro";
+import ThirdSection from "../components/third-section.astro";
+import FourthSection from "../components/fourth-section.astro";
+import FifthSection from "../components/fifth-section.astro";
+import SixthSection from "../components/sixth-section.astro";
+import SeventhSection from "../components/seventh-section.astro";
+import Layout from "../layouts/Layout.astro";
+
+const sectionStyle = "relative h-screen";
+const commonStyles = "absolute h-full w-full flex flex-col";
+const imageStyles = "absolute h-full w-full -z-10 opacity-70 lg:object-cover ";
 ---
 
 <Layout title="Intimacy - Master Body&Mind Program">
-	<main class="font-primary text-2xl w-full text-white">
-		<HeroSection/>
-		<SecondSection/>
-		<ThirdSection/>
-		<FourthSection/>
-		<FifthSection/>
-		<SixthSection/>
-		<SeventhSection/>
-	</main>
+  <main class="font-secondary w-full text-white">
+    <HeroSection
+      sectionStyle={sectionStyle}
+      commonStyles={commonStyles}
+      imageStyles={imageStyles}
+    />
+    <SecondSection
+      sectionStyle={sectionStyle}
+      commonStyles={commonStyles}
+      imageStyles={imageStyles}
+    />
+    <ThirdSection
+      sectionStyle={sectionStyle}
+      commonStyles={commonStyles}
+      imageStyles={imageStyles}
+    />
+    <FourthSection
+      sectionStyle={sectionStyle}
+      commonStyles={commonStyles}
+      imageStyles={imageStyles}
+    />
+    <FifthSection
+      sectionStyle={sectionStyle}
+      commonStyles={commonStyles}
+      imageStyles={imageStyles}
+    />
+    <SixthSection
+      sectionStyle={sectionStyle}
+      commonStyles={commonStyles}
+      imageStyles={imageStyles}
+    />
+    <SeventhSection
+      sectionStyle={sectionStyle}
+      commonStyles={commonStyles}
+      imageStyles={imageStyles}
+    />
+  </main>
 </Layout>
-

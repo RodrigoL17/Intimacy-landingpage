@@ -4,7 +4,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				primary: ['Noto Serif Display', 'serif'],
+				primary: ['Cinzel Variable', 'serif'],
 				secondary: ['Taviraj', 'serif'],
 				tertiary: ['Oooh Baby', 'cursive'],
 			}

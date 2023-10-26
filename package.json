@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@astrojs/tailwind": "^5.0.2",
+    "@fontsource-variable/cinzel": "^5.0.8",
     "@fontsource-variable/noto-serif-display": "^5.0.18",
     "@fontsource/oooh-baby": "^5.0.17",
     "@fontsource/taviraj": "^5.0.17",

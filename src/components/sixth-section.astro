@@ -4,14 +4,14 @@ const { sectionStyle, imageStyles, commonStyles } = Astro.props;
 
 <section class={sectionStyle}>
   <div
-    class={`${commonStyles} justify-center items-start gap-8 lg:gap-16 text-[0.9rem] lg:text-3xl px-5 lg:px-20`}
+    class={`${commonStyles} justify-center lg:items-start gap-8 lg:gap-16 text-[0.9rem] lg:text-3xl px-5 lg:px-20`}
   >
     <h2
-      class="text-lg lg:text-4xl underline underline-offset-4 decoration-1 text-center w-[50%]"
+      class="text-lg lg:text-4xl underline underline-offset-4 decoration-1 text-center lg:w-[50%]"
     >
       ¿Qué incluye este viaje?
     </h2>
-    <ul class="flex flex-col gap-10 w-[50%] text-center">
+    <ul class="flex flex-col gap-10 lg:w-[50%] text-center">
       <li>
         - 7 (siete) encuentros por Zoom grupales de 2 horas, uno por semana.
         Sábados de 10 a 12hs Arg.
@@ -28,7 +28,7 @@ const { sectionStyle, imageStyles, commonStyles } = Astro.props;
     </ul>
   </div>
   <img
-    class={imageStyles}
+    class={`${imageStyles} hidden lg:block`}
     src="/cover6.webp"
     alt="cover"
   />
